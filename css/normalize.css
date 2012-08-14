@@ -37,8 +37,7 @@ dl,menu,ol,ul{margin:1em 0}
 dd{margin:0 0 0 0px}
 menu,ol,ul{padding:0 0 0 0px}
 nav ul,nav ol{list-style:none;list-style-image:none}
-nav li {display:inline-block;*display: inline;zoom: 1;margin-left:10%}
-nav li:first-child {margin-left:0px;}
+nav li {display:inline-block;*display: inline;zoom: 1}
 img{border:0;-ms-interpolation-mode:bicubic;vertical-align: middle}
 img,object,embed{max-width: 100%; border:0}
 object,embed{height: 100%}
