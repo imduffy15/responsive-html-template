@@ -58,7 +58,20 @@
         <div role="main">
           <div class="container">
             <figure class="twelve columns" id="featured">
-              <iframe src="http://www.youtube.com/embed/3bEtJgnd86M?showinfo=0&amp;theme=light&amp;rel=0&amp;modestbranding=1&amp;fs=0&amp;autohide=1" frameborder="0"></iframe>
+              <ul class="slides">
+                <li>
+      	    	    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg">
+      	    		</li>
+      	    		<li>
+      	    	    <img src="images/kitchen_adventurer_lemon.jpg">
+      	    		</li>
+      	    		<li>
+      	    	    <img src="images/kitchen_adventurer_donut.jpg">
+      	    		</li>
+      	    		<li>
+      	    	    <img src="images/kitchen_adventurer_caramel.jpg">
+      	    		</li>
+              </ul>
             </figure>
           </div>
           <div class="container">
@@ -87,8 +100,14 @@
         <script src="js/main.js"></script>
         <script>
           $(document).ready(function(){
-            // Target your .container, .wrapper, .post, etc.
             $(".container").fitVids();
+            $('#featured').flexslider({
+              animation: "slide",
+              start: function(slider){
+                $('body').removeClass('loading');
+              }
+            });
+            
           });
         </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
