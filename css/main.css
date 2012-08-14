@@ -168,6 +168,7 @@ html[xmlns] .slides {display: block;}
 .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
 .loading .flex-viewport {max-height: 300px;}
 .loading { background: url(../img/loading.gif) no-repeat center #f4f4f4; height: 300px; }
+.loading img {display: none;}
 .flexslider .slides {zoom: 1;}
 .carousel li {margin-right: 5px}
 .flex-direction-nav {*height: 0;}
