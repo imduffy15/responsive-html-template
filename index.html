@@ -58,7 +58,7 @@
        
         <div role="main">
           <div class="container">
-            <figure class="twelve columns flexslider" id="featured">
+            <figure class="twelve columns flexslider loading" id="featured">
               <ul class="slides">
                 <li>
       	    	    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg">
@@ -102,9 +102,8 @@
           $(document).ready(function(){
             $(".container").fitVids();
             $('#featured').flexslider({
-              animation: "slide",
               start: function(slider){
-                $('body').removeClass('loading');
+                $('#featured').removeClass('loading');
               }
             });
             
