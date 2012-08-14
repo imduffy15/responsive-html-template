@@ -101,11 +101,13 @@
         <script>
           $(document).ready(function(){
             $(".container").fitVids();
-            $('#featured').flexslider({
-              start: function(slider){
-                $('#featured').removeClass('loading');
+            $('img').load(function(){ })
+              $('#featured').flexslider({
+                start: function(slider){
+                  $('#featured').removeClass('loading');
+                }
               }
-            });
+          );
             
           });
         </script>
