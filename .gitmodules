@@ -1,0 +1,3 @@
+[submodule "docs/Accessibility"]
+	path = docs/Accessibility
+	url = https://github.com/grayghostvisuals/Accessibility-Checklist.git
