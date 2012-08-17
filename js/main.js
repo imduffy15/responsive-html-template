@@ -1,3 +1,7 @@
+$(document).ready(function() {
+     $(".container").fitVids();
+});
+
 $(window).load(function() {
     $('#featured').flexslider({
       start: function(slider){
@@ -6,7 +10,3 @@ $(window).load(function() {
     }
   );            
 });
-
-$(document).load(function() {
-   $(".container").fitVids();
-})
